@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/e9ee48a8e3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- cha1-2-5 -->
+    <div class="container">
+    <div class="fils1"><button id="btn1" onclick="message()">alert</button></div>
+    <div class="fils2">
+        <h3 id="vis">hello</h3>
+        <button id="btn3" onclick="cacher()">cacher</button>
+    </div>
+    </div>
+    <!-- cha3 -->
+    <div class="container2">
+        <h2 id="pos"></h2>
+        <button id="btn2" onclick="reagir()">s'inscrire</button>
+    </div>
+    
+    <!-- cha4 -->
+    <div class="modal">
+        <i class="fa-solid fa-xmark fa-xl" style="color: #000000;" id="close"></i>
+        <div class="parent1">
+        <form action="" id="fr">
+            <h4 id="titre">Remplir les infos</h4>
+            <input type="text" placeholder="nom">
+            <input type="text" placeholder="prenom">
+            <input type="text" placeholder="email">
+            <input type="text" placeholder="mot de pass">
+            <button id="btn4" onclick="validate()" type="button">s'inscrire</button>
+        </form>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
